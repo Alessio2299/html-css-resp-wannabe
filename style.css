@@ -93,6 +93,10 @@ img {
   .row, h1, body, h3{
     margin: 0;
   }
+  h1 {
+    padding: 10px 0 20px 0;
+    font-size: 50px;
+  }
   /* End Container Lezioni */
 
   /* Start Container Steps */
@@ -113,4 +117,24 @@ img {
     margin-top: 30px;
   }
   /* End Container Steps */
+
+  /* Start Container Why */
+  #why>.row {
+    background-color: rgb(242, 242, 205);
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  hr{
+    margin: 0;
+    border: 1px solid gray;
+  }
+  .third{
+    padding-bottom: 20px;
+  }
+  /* End Container Why */
 }
