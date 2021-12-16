@@ -135,3 +135,45 @@ img {
   }
   /* End Container Why */
 }
+@media screen and (min-width: 420px) and (max-width: 1000px) {
+  /* Start Container Lezioni */
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 90%;
+    float: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin: auto;
+  }
+  #lezioni>.row{
+    padding: 20px 0;
+  }
+  .row, h1, body, h3{
+    margin: 0;
+  }
+  h1 {
+    padding: 10px 0 20px 0;
+    font-size: 50px;
+  }
+  /* End Container Lezioni */
+
+  /* Start Container Steps */
+  #steps .row{
+    background-color: #f9f9f9;
+    padding-bottom: 20px;
+  }
+
+   /* End Container Steps */
+
+  /* Start Container Why */
+  #why .row{
+    background-color: #fff;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
