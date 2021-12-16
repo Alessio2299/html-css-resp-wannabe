@@ -73,8 +73,7 @@ img {
   clear: both;
 }
 
-/* Start MediaQuery */
-
+/* Start MediaQuery */ 
 @media screen and (max-width: 419px) {
   /* Start Container Lezioni */
   #lezioni .row>.left,
@@ -84,10 +83,8 @@ img {
     margin-bottom: 20px;
     margin-top: 30px;
     margin: auto;
-
   }
   #lezioni>.row{
-    background-color: rgb(242, 242, 205);
     padding: 20px 0;
   }
   .row, h1, body, h3{
@@ -119,7 +116,7 @@ img {
   /* End Container Steps */
 
   /* Start Container Why */
-  #why>.row {
+  #why>.row, #lezioni>.row{
     background-color: rgb(242, 242, 205);
   }
   #why .row>.first,
