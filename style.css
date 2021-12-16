@@ -184,6 +184,7 @@ img {
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 20px;
+    box-shadow: 5px 5px 10px #000;
   }
   #why .row>.third {
     margin-bottom: 20px;
